@@ -388,21 +388,21 @@ export default () => (
         <MegaQuote mt={6}>
           <GlowingIcon glyph="quote" size={24} />
           <Text fontSize={[5, 6]} mt={[null, 5]} bold>
-            Tudo começou quando eu procurana por um evento e experiência de
+            Tudo começou quando eu procurava por um evento e experiência de
             úsuario que encontrei foi horrível por este motivo criei este
             serviço.
           </Text>
           <Flex align="center" mt={[4, 5]}>
             <Avatar
-              src="https://drive.google.com/file/d/1a1GFRNlA8h7S58wh8L7PITUw6GRHLOim/preview"
+              src="https://instagram.fsod6-1.fna.fbcdn.net/vp/c70cfd59e67b4283e91b03919bb6297d/5D7831C1/t51.2885-15/sh0.08/e35/c0.96.778.778a/s640x640/54512927_337131653828536_9186661251008413655_n.jpg?_nc_ht=instagram.fsod6-1.fna.fbcdn.net"
               size={48}
               mr={3}
             />
             <Box align="left" fontSize={3}>
-              <Text.span bold>Gabriel Correa</Text.span>, Morumbi, SP
+              <Text.span bold>Gabriel Correa</Text.span> — Morumbi, SP
               <br />
               <Text fontSize={2} color="smoke">
-                (@gbbcorrea on Twitter)
+                (@gbbcorrea em Twitter)
               </Text>
             </Box>
           </Flex>
