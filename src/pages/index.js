@@ -245,12 +245,14 @@ export default () => (
           </strong>
           .
         </Lead>
-        {<OutlineButton.link bg="teal.1" to="/community" m={[1, 2]}>
-            Join the community
-          </OutlineButton.link>}
-        <StartCTA to="/start" m={[1, 2]}>
-          Try the demo
-        </StartCTA>
+        {
+          <OutlineButton.link bg="teal.1" to="/community" m={[1, 2]}>
+            Junte-se à comunidade
+          </OutlineButton.link>
+          <OutlineButton.link bg="teal.1" to="/community" m={[1, 2]}>
+            Experimente o construtor
+          </OutlineButton.link>
+        }
       </Container>
     </Promo>
     <Box bg="white" color="black" align="center" py={[5, 6, 7]}>
