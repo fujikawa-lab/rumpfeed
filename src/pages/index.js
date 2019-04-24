@@ -237,22 +237,17 @@ export default () => (
           maxWidth={42}
           mt={[3, 4]}
           mb={[4, 5]}
-        >          
+        >
           Oferecemos aos nossos clientes uma plataforma de campanha mais eficaz
           e inteligente dimensionando, escalando e maximizando seus lucros{' '}
-          <strong>
-            tudo em uma ferramenta
-          </strong>
-          .
+          <strong>tudo em uma ferramenta</strong>.
         </Lead>
-        {
-          <OutlineButton.link bg="teal.1" to="/community" m={[1, 2]}>
-            Junte-se à comunidade
-          </OutlineButton.link>
-          <OutlineButton.link bg="teal.1" to="/community" m={[1, 2]}>
-            Experimente o construtor
-          </OutlineButton.link>
-        }
+        <OutlineButton.link bg="teal.1" to="/community" m={[1, 2]}>
+          Junte-se à comunidade
+        </OutlineButton.link>
+        <OutlineButton.link bg="teal.1" to="/community" m={[1, 2]}>
+          Experimente o construtor
+        </OutlineButton.link>
       </Container>
     </Promo>
     <Box bg="white" color="black" align="center" py={[5, 6, 7]}>
@@ -342,9 +337,8 @@ export default () => (
           Grow as a programmer & human with our resources.
         </ColoredHeadline>
         <Text fontSize={4} mb={4} style={{ maxWidth: '48rem' }}>
-          We offer{' '}
-          <A href="/workshops">free, open-source coding tutorials</A>. We write
-          about{' '}
+          We offer <A href="/workshops">free, open-source coding tutorials</A>.
+          We write about{' '}
           <A
             target="_blank"
             href="https://medium.com/hackclub/how-to-start-a-computer-science-club-at-your-high-school-ff32264f225a"
@@ -394,12 +388,16 @@ export default () => (
         <MegaQuote mt={6}>
           <GlowingIcon glyph="quote" size={24} />
           <Text fontSize={[5, 6]} mt={[null, 5]} bold>
-            Tudo começou quando eu procurana por um evento
-            e experiência de úsuario que encontrei
-            foi horrível por este motivo criei este serviço.
+            Tudo começou quando eu procurana por um evento e experiência de
+            úsuario que encontrei foi horrível por este motivo criei este
+            serviço.
           </Text>
           <Flex align="center" mt={[4, 5]}>
-            <Avatar src="https://drive.google.com/file/d/1a1GFRNlA8h7S58wh8L7PITUw6GRHLOim/preview" size={48} mr={3} />
+            <Avatar
+              src="https://drive.google.com/file/d/1a1GFRNlA8h7S58wh8L7PITUw6GRHLOim/preview"
+              size={48}
+              mr={3}
+            />
             <Box align="left" fontSize={3}>
               <Text.span bold>Gabriel Correa</Text.span>, Morumbi, SP
               <br />
