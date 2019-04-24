@@ -255,8 +255,8 @@ export default () => (
         <Text fontSize={4} my={4} mx="auto" maxWidth={65}>
           <strong>
             Uma poderosa e intuitiva plataforma de marketing para seus eventos.
-          </strong>{' '}
-          Nossa plataforma melhora seu engajamento e impulsiona desempenho de seu evento.<br />
+          </strong>{' '}<br />
+          Nossa plataforma melhora engajamento e impulsiona desempenho de seu evento.<br />
           Capacite sua equipe para{' '}
           <AnimatedHighlight>
             lançar, promover e dimensionar
