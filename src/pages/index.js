@@ -257,11 +257,6 @@ export default () => (
     </Promo>
     <Box bg="white" color="black" align="center" py={[5, 6, 7]}>
       <Container px={3}>
-        <Flex align="center" justify="center" wrap>
-          <Stat value={stats.school_count} label="schools" color="teal.6" />
-          <Stat value={stats.state_count} label="states" color="cyan.6" />
-          <Stat value={stats.country_count} label="countries" color="blue.6" />
-        </Flex>
         <Text fontSize={4} my={4} mx="auto" maxWidth={48}>
           <strong>
             We’re high schoolers running weekly afterschool coding clubs.
@@ -399,16 +394,17 @@ export default () => (
         <MegaQuote mt={6}>
           <GlowingIcon glyph="quote" size={24} />
           <Text fontSize={[5, 6]} mt={[null, 5]} bold>
-            Before I started Hack Club in sophomore year, I didn’t believe in
-            myself. I didn’t think I could do big things.
+            Tudo começou quando eu procurana por um evento
+            e experiência de úsuario que encontrei
+            foi horrível por este motivo criei este serviço.
           </Text>
           <Flex align="center" mt={[4, 5]}>
-            <Avatar src="/hackers/megan.png" size={48} mr={3} />
+            <Avatar src="https://drive.google.com/file/d/1a1GFRNlA8h7S58wh8L7PITUw6GRHLOim/preview" size={48} mr={3} />
             <Box align="left" fontSize={3}>
-              <Text.span bold>Megan Cui</Text.span>, Cincinnati, OH
+              <Text.span bold>Gabriel Correa</Text.span>, Morumbi, SP
               <br />
               <Text fontSize={2} color="smoke">
-                (@megan on Slack)
+                (@gbbcorrea on Twitter)
               </Text>
             </Box>
           </Flex>
