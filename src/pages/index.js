@@ -234,7 +234,7 @@ export default () => (
         <Lead
           fontSize={[3, 4, 5]}
           color="white"
-          maxWidth={42}
+          maxWidth={65}
           mt={[3, 4]}
           mb={[4, 5]}
         >
@@ -246,28 +246,28 @@ export default () => (
           Junte-se à comunidade
         </OutlineButton.link>
         <OutlineButton.link bg="teal.1" to="/community" m={[1, 2]}>
-          Experimente o construtor
+          Experimente Gratuitamente
         </OutlineButton.link>
       </Container>
     </Promo>
     <Box bg="white" color="black" align="center" py={[5, 6, 7]}>
       <Container px={3}>
-        <Text fontSize={4} my={4} mx="auto" maxWidth={48}>
+        <Text fontSize={4} my={4} mx="auto" maxWidth={65}>
           <strong>
-            We’re high schoolers running weekly afterschool coding clubs.
+            Uma poderosa e intuitiva plataforma de marketing para seus eventos.
           </strong>{' '}
-          For&nbsp;2 weeks, we’re running an exclusive campaign to help next-gen{' '}
+          Nossa plataforma melhora sua efetividade e impulsiona desempenho de seu evento. 
+          Capacite sua equipe para{' '}
           <AnimatedHighlight>
-            leaders start their clubs before the year ends
+            lançar, promover e dimensionar
           </AnimatedHighlight>
-          . With a spring pilot, you’ll start off great next fall with runway
-          experience & members.
+          campanhas inovadoras e sofisticadas.
         </Text>
         <PromoSmallCTA bg="teal.7" to="/start" chevronRight>
-          Start your club
+        Mostre-me como funciona
         </PromoSmallCTA>
         <Text fontSize={[1, 2]} color="slate" mt={2}>
-          Start a club, or bring yours—existing clubs are welcome&nbsp;too!
+          Aproveite, oferecemos desconto em — assinaturas trimestral e anual.
         </Text>
       </Container>
     </Box>
