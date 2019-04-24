@@ -105,7 +105,7 @@ const Footer = ({ dark = false, children, ...props }) => (
     <Columns px={3}>
       <Box>
         <Heading.h2 fontSize={3} mb={3}>
-          Hack Club
+          Rumpfeed
         </Heading.h2>
         <Pages>
           <Link to="/" children="Home" />
@@ -117,7 +117,7 @@ const Footer = ({ dark = false, children, ...props }) => (
       </Box>
       <Box>
         <Heading.h2 fontSize={3} mb={3}>
-          For Clubs
+          Para Eventos
         </Heading.h2>
         <Pages>
           <Link to="/start/" children="Start a Club" />
@@ -129,7 +129,7 @@ const Footer = ({ dark = false, children, ...props }) => (
       </Box>
       <Box>
         <Heading.h2 fontSize={3} mb={3}>
-          Resources
+          Para Amigos
         </Heading.h2>
         <Pages>
           <Link to="/conduct/" children="Code of Conduct" />
@@ -141,7 +141,7 @@ const Footer = ({ dark = false, children, ...props }) => (
       </Box>
       <Box>
         <Heading.h2 fontSize={3} mb={3}>
-          Join the Club
+          Junte-se ao Clube
         </Heading.h2>
         <Services>
           <Service href="/community/" icon="slack-fill" target="_self" />
@@ -163,23 +163,24 @@ const Footer = ({ dark = false, children, ...props }) => (
           <Service href="mailto:team@hackclub.com" icon="email" />
         </Services>
         <Text my={2}>
-          <a href="tel:1-855-625-HACK">1-855-625-HACK</a>
+          <a href="tel:1135374437">+55(11)35374437 RPF</a>
           <br />
-          <Text.span color="muted" children="(call toll-free)" />
+          <Text.span color="muted" children="Serviço de Atendimento ao Consumidor — " />
+          <Text.span color="muted" children="Segunda á Sexta — 09:00 ás 16:00." />
         </Text>
       </Box>
     </Columns>
     <Container px={3} mt={[3, 4]}>
-      <Box fontSize={2}>
-        <Text>Office: 576 Natoma St, San Francisco, CA 94103</Text>
+      <Box fontSize={2}>        
         <Text>
-          Mail: 8605 Santa Monica Blvd #86294, West Hollywood, CA 90069
+          Rumpfeed Marketing LTDA (92.455.664/0001-63)
         </Text>
+        <Text>Av. General Cavalcanti Nº186 — Vila Mórumbi, São Paulo</Text>
       </Box>
       <BottomLine mt={3}>
         <Text fontSize={1} mt={2} color="muted">
-          © {new Date().getFullYear()} Hack Club. 501(c)(3) nonprofit (EIN:
-          81-2908499)
+          © {new Date().getFullYear()} todos os direitos reservados desenvolvido, administrado e gerenciado por Fujikawa Lab LTDA (92.455.664/0001-63).<br />
+          Somos parte do grupo empresarial Fujikawa Corporation S/A (92.455.664/0001-63) GC Oliveira Holding (92.455.664/0001-63).
         </Text>
       </BottomLine>
     </Container>
