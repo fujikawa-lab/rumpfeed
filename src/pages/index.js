@@ -229,7 +229,7 @@ export default () => (
     <Promo>
       <Container maxWidth={72} px={3} py={[5, 6]}>
         <PromoMegaline mt={4} pb={1}>
-          Start a coding club at your high&nbsp;school this spring.
+          Construa sua campanha de marketing fácil e rápido.
         </PromoMegaline>
         <Lead
           fontSize={[3, 4, 5]}
@@ -237,11 +237,11 @@ export default () => (
           maxWidth={42}
           mt={[3, 4]}
           mb={[4, 5]}
-        >
-          Hack Club is a global, nonprofit network of high school coding clubs.
-          Apply now for{' '}
+        >          
+          Oferecemos aos nossos clientes uma plataforma de campanha mais eficaz
+          e inteligente dimensionando, escalando e maximizando seus lucros.{' '}
           <strong>
-            early&nbsp;admissions—open for {timeTo(springPromo.deadline)}
+            tudo em uma ferramenta
           </strong>
           .
         </Lead>
