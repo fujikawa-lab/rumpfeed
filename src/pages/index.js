@@ -52,8 +52,8 @@ OutlineButton.link = OutlineButton.withComponent(Link)
 const promoBG = css`
   background-image: radial-gradient(
     ellipse farthest-corner at top left,
-    rgb(26, 211, 191),
-    rgb(17, 195, 109)
+    rgb(60,186,146),
+    rgb(11,163,96)
   );
 `
 const Promo = styled(Box.withComponent('section')).attrs({
@@ -229,7 +229,7 @@ export default () => (
     <Promo>
       <Container maxWidth={72} px={3} py={[5, 6]}>
         <PromoMegaline mt={4} pb={1}>
-          Construa sua campanha de marketing fácil e rápido.
+          Construa sua campanha de marketing rápido e fácil.
         </PromoMegaline>
         <Lead
           fontSize={[3, 4, 5]}
@@ -239,17 +239,17 @@ export default () => (
           mb={[4, 5]}
         >          
           Oferecemos aos nossos clientes uma plataforma de campanha mais eficaz
-          e inteligente dimensionando, escalando e maximizando seus lucros.{' '}
+          e inteligente dimensionando, escalando e maximizando seus lucros{' '}
           <strong>
             tudo em uma ferramenta
           </strong>
           .
         </Lead>
-        {/* <OutlineButton.link bg="teal.1" to="/community" m={[1, 2]}>
+        {<OutlineButton.link bg="teal.1" to="/community" m={[1, 2]}>
             Join the community
-          </OutlineButton.link> */}
+          </OutlineButton.link>}
         <StartCTA to="/start" m={[1, 2]}>
-          Start your club
+          Try the demo
         </StartCTA>
       </Container>
     </Promo>
