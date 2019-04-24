@@ -256,12 +256,12 @@ export default () => (
           <strong>
             Uma poderosa e intuitiva plataforma de marketing para seus eventos.
           </strong>{' '}
-          Nossa plataforma melhora sua efetividade e impulsiona desempenho de seu evento. 
+          Nossa plataforma melhora seu engajamento e impulsiona desempenho de seu evento.<br />
           Capacite sua equipe para{' '}
           <AnimatedHighlight>
             lançar, promover e dimensionar
           </AnimatedHighlight>
-          campanhas inovadoras e sofisticadas.
+          &nbsp;campanhas inovadoras e sofisticadas.
         </Text>
         <PromoSmallCTA bg="teal.7" to="/start" chevronRight>
         Mostre-me como funciona
