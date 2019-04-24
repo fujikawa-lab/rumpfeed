@@ -175,12 +175,12 @@ const Footer = ({ dark = false, children, ...props }) => (
         <Text>
           Rumpfeed Marketing LTDA (92.455.664/0001-63)
         </Text>
-        <Text>Av. General Cavalcanti Nº186 — Vila Mórumbi, São Paulo</Text>
+        <Text>Av. General Cavalcanti Nº186 — Vila Mórumbi, São Paulo.</Text>
       </Box>
       <BottomLine mt={3}>
         <Text fontSize={1} mt={2} color="muted">
-          © {new Date().getFullYear()} todos os direitos reservados desenvolvido, administrado e gerenciado por Fujikawa Lab LTDA (92.455.664/0001-63).<br />
-          Somos parte do grupo empresarial Fujikawa Corporation S/A (92.455.664/0001-63) GC Oliveira Holding (92.455.664/0001-63).
+          Somos parte do grupo empresarial Fujikawa Corporation S/A (92.455.664/0001-63) & GC Oliveira Holding (92.455.664/0001-63)<br />
+          © {new Date().getFullYear()} Todos os direitos reservados desenvolvido, administrado e gerenciado por Fujikawa Lab LTDA (92.455.664/0001-63).
         </Text>
       </BottomLine>
     </Container>
