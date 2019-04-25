@@ -125,6 +125,7 @@ const Navigation = props => (
       target="_blank"
       rel="noopener noreferrer"
     />
+    <Link to="/projeto/novo" children="Experimente" />
     <Link to="/bank/" children="Bank" />
     <Link to="/donate/" children="Donate" />
   </NavBar>

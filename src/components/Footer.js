@@ -163,7 +163,7 @@ const Footer = ({ dark = false, children, ...props }) => (
           <Service href="mailto:team@hackclub.com" icon="email" />
         </Services>
         <Text my={2}>
-          <a href="tel:1135374437">+55(11)35374437 RPF</a>
+          <a href="tel:1135374437">+55 (11) 35374437 RPF</a>
           <br />
           <Text.span color="muted" children="Serviço de Atendimento ao Consumidor — " />
           <Text.span color="muted" children="Segunda á Sexta — 09:00 ás 16:00." />
